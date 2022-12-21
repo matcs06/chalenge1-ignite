@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
+    width: 46%;
     background-color: #262626;
     border-radius: 8px;
     height: 72px;
@@ -12,8 +12,26 @@
     padding: 0 2% 0 2%;
 }
 
-.listContainer div input{
+.inputCheckBox{
+    padding: 10px;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid #4EA8DE;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
     cursor: pointer;
+
+}
+
+.inputCheckBox:checked{
+    appearance: auto;
+    clip-path: circle(50% at 50% 50%);
+    accent-color: #5E60CE;
+    font-size: 10px;
+    size: 10px;
 }
 
 

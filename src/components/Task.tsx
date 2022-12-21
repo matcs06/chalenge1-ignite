@@ -15,8 +15,8 @@ export function Task({id, title, isDone=false, deleteItem, checkItem}: TaskType)
     return(
 
         <div className={styles.listContainer}>
-            <div>
-                <input type="checkbox" checked={isDone} onChange={() => checkItem(!isDone, id)} />
+            <div className={styles.checkboxContainer}>
+                <input className={styles.inputCheckBox} type="checkbox" checked={isDone} onChange={() => checkItem(!isDone, id)} />
             </div>
             <p className={styles.content}>
                 {title}
