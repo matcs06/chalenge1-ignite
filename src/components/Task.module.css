@@ -1,0 +1,31 @@
+.listContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    background-color: #262626;
+    border-radius: 8px;
+    height: 72px;
+    min-height: 72px;
+    margin-top: 10px;
+    padding: 0 2% 0 2%;
+}
+
+.listContainer div input{
+    cursor: pointer;
+}
+
+
+
+.listContainer p {
+    color: aliceblue;
+    padding-left: 2%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+}
